@@ -1,6 +1,7 @@
 # Xcode project user data
 *.xcuserdata
 *.xcuserdatad
+*.xcuserstate
 
 # Derived data
 DerivedData/
