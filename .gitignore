@@ -1,0 +1,18 @@
+# Xcode project user data
+*.xcuserdata
+*.xcuserdatad
+
+# Derived data
+DerivedData/
+
+# Build products
+build/
+
+# Logs
+*.log
+
+# macOS metadata
+.DS_Store
+
+# Temporary files
+*.swp
