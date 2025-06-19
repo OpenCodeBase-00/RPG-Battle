@@ -1,13 +1,17 @@
 //
-//  Character.swift
+//  Enemy.swift
 //  RPG Battle simulator
 //
-//  Created by Hongfei Zheng on 6/15/25.
+//  Created by Hongfei Zheng on 6/19/25.
 //
 
 import Foundation
-
-class Character: Identifiable {
+enum EnemyType {
+    case boss
+    case elite
+    case minion
+}
+class Enemy: Identifiable {
     let id = UUID()
     let name: String
     var isAlive: Bool {
@@ -20,7 +24,6 @@ class Character: Identifiable {
     let attributes: Attributes
     var items: [Item]
     var skills: [Skill]
-    
     public init(name: String, attributes: Attributes, items: [Item], skills: [Skill]) {
         self.name = name
         self.attributes = attributes

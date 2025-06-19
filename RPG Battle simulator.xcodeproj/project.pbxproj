@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F13C50AF2DFF7F7A002D7283 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50AE2DFF7F7A002D7283 /* Character.swift */; };
+		F13C50B12E030642002D7283 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50B02E030642002D7283 /* Item.swift */; };
+		F13C50B52E0352A4002D7283 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50B42E0352A4002D7283 /* Skill.swift */; };
+		F13C50B72E0353E7002D7283 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50B62E0353E7002D7283 /* Attributes.swift */; };
+		F13C50B92E04B70D002D7283 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50B82E04B70D002D7283 /* Enemy.swift */; };
+		F13C50BC2E04B9B5002D7283 /* Usable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50BB2E04B9B5002D7283 /* Usable.swift */; };
+		F13C50BF2E04BB10002D7283 /* BattleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50BE2E04BB10002D7283 /* BattleManager.swift */; };
+		F13C50C12E04BB78002D7283 /* BattleStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50C02E04BB78002D7283 /* BattleStatus.swift */; };
+		F13C50C32E04BD1F002D7283 /* BattleLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50C22E04BD1F002D7283 /* BattleLogs.swift */; };
+		F13C50C52E04BDEF002D7283 /* BattleLogics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50C42E04BDEF002D7283 /* BattleLogics.swift */; };
+		F13C50C72E04C4AF002D7283 /* DefaultStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50C62E04C4AF002D7283 /* DefaultStart.swift */; };
+		F13C50C92E04C4E4002D7283 /* NewGameSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C50C82E04C4E4002D7283 /* NewGameSetup.swift */; };
 		F1DC703A2DFF7B99004F15BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DC70392DFF7B99004F15BD /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +36,17 @@
 
 /* Begin PBXFileReference section */
 		F13C50AE2DFF7F7A002D7283 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		F13C50B02E030642002D7283 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F13C50B42E0352A4002D7283 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		F13C50B62E0353E7002D7283 /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		F13C50B82E04B70D002D7283 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		F13C50BB2E04B9B5002D7283 /* Usable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usable.swift; sourceTree = "<group>"; };
+		F13C50BE2E04BB10002D7283 /* BattleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleManager.swift; sourceTree = "<group>"; };
+		F13C50C02E04BB78002D7283 /* BattleStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleStatus.swift; sourceTree = "<group>"; };
+		F13C50C22E04BD1F002D7283 /* BattleLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleLogs.swift; sourceTree = "<group>"; };
+		F13C50C42E04BDEF002D7283 /* BattleLogics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleLogics.swift; sourceTree = "<group>"; };
+		F13C50C62E04C4AF002D7283 /* DefaultStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStart.swift; sourceTree = "<group>"; };
+		F13C50C82E04C4E4002D7283 /* NewGameSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameSetup.swift; sourceTree = "<group>"; };
 		F1DC70362DFF7B99004F15BD /* RPG Battle simulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "RPG Battle simulator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DC70392DFF7B99004F15BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,8 +66,33 @@
 			isa = PBXGroup;
 			children = (
 				F13C50AE2DFF7F7A002D7283 /* Character.swift */,
+				F13C50B02E030642002D7283 /* Item.swift */,
+				F13C50B42E0352A4002D7283 /* Skill.swift */,
+				F13C50B62E0353E7002D7283 /* Attributes.swift */,
+				F13C50B82E04B70D002D7283 /* Enemy.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F13C50BA2E04B99F002D7283 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F13C50BB2E04B9B5002D7283 /* Usable.swift */,
+				F13C50C82E04C4E4002D7283 /* NewGameSetup.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F13C50BD2E04BAD0002D7283 /* GameEngine */ = {
+			isa = PBXGroup;
+			children = (
+				F13C50BE2E04BB10002D7283 /* BattleManager.swift */,
+				F13C50C02E04BB78002D7283 /* BattleStatus.swift */,
+				F13C50C22E04BD1F002D7283 /* BattleLogs.swift */,
+				F13C50C42E04BDEF002D7283 /* BattleLogics.swift */,
+				F13C50C62E04C4AF002D7283 /* DefaultStart.swift */,
+			);
+			path = GameEngine;
 			sourceTree = "<group>";
 		};
 		F1DC702D2DFF7B99004F15BD = {
@@ -67,6 +114,8 @@
 		F1DC70382DFF7B99004F15BD /* RPG Battle simulator */ = {
 			isa = PBXGroup;
 			children = (
+				F13C50BD2E04BAD0002D7283 /* GameEngine */,
+				F13C50BA2E04B99F002D7283 /* Protocol */,
 				F13C50AD2DFF7F5D002D7283 /* Models */,
 				F1DC70392DFF7B99004F15BD /* main.swift */,
 			);
@@ -131,7 +180,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13C50C72E04C4AF002D7283 /* DefaultStart.swift in Sources */,
+				F13C50BC2E04B9B5002D7283 /* Usable.swift in Sources */,
 				F1DC703A2DFF7B99004F15BD /* main.swift in Sources */,
+				F13C50C52E04BDEF002D7283 /* BattleLogics.swift in Sources */,
+				F13C50C32E04BD1F002D7283 /* BattleLogs.swift in Sources */,
+				F13C50B52E0352A4002D7283 /* Skill.swift in Sources */,
+				F13C50B92E04B70D002D7283 /* Enemy.swift in Sources */,
+				F13C50B12E030642002D7283 /* Item.swift in Sources */,
+				F13C50C12E04BB78002D7283 /* BattleStatus.swift in Sources */,
+				F13C50BF2E04BB10002D7283 /* BattleManager.swift in Sources */,
+				F13C50C92E04C4E4002D7283 /* NewGameSetup.swift in Sources */,
+				F13C50B72E0353E7002D7283 /* Attributes.swift in Sources */,
 				F13C50AF2DFF7F7A002D7283 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
