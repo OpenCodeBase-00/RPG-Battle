@@ -22,17 +22,6 @@ struct BattleStatus {
         }
     }
     func printOutCharacterStatus() {
-        let attributes = character.attributes
-        if let HP = attributes.HP, let MP = attributes.MP, let strength = attributes.strength, let agility = attributes.agility, let intelligence = attributes.intelligence, let attack = attributes.attack, let defend = attributes.defend, let evasion = attributes.evasion {
-            print("Character:")
-            print("HP: \(HP)")
-            print("MP: \(MP)")
-            print("Strength: \(strength)")
-            print("Agility: \(agility)")
-            print("Intelligence: \(intelligence)")
-            print("attack: \(attack)")
-            print("defend: \(defend)")
-            print("evasion: \(evasion)")
-        }
+        character.printOutCharacterStatus()
     }
 }

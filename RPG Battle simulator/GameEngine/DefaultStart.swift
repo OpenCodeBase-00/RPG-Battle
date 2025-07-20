@@ -9,7 +9,7 @@ import Foundation
 struct DefaultStart: NewGameSetup {
     func createdCharacter() -> Character {
         let characterAttributes = Attributes(strength: 3, agility: 3, intelligence: 3)
-        let character = Character(name: "Hero - 00", attributes: characterAttributes, items: [], skills: [])
+        let character = Character(name: "Hero - 00", level: 1, attributes: characterAttributes, items: [], skills: [])
         return character
     }
     
